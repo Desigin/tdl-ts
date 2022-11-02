@@ -1,0 +1,37 @@
+{
+  "name": "tdl-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "test": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desigin/tdl-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desigin/tdl-ts/issues"
+  },
+  "homepage": "https://github.com/Desigin/tdl-ts#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "tsd": "^0.24.1"
+  },
+  "tsd": {
+    "directory": "test-dts",
+    "compilerOptions": {
+      "strict": false,
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    }
+  }
+}
