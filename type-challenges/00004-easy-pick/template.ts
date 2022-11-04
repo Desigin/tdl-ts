@@ -11,7 +11,6 @@ type MyPick<T, K extends keyof T> = {
     [P in K] : T[P]
 }
 
-// this.drawText(ctx, uni.upx2px(40), uni.upx2px(1160), title, '22', '#2A85E1', 'left');
 // js写法
 // function myPick(todo, keys) {
 //     const obj = {}
